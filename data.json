@@ -1,0 +1,187 @@
+{
+    "recipes": [
+      {
+        "id": 1,
+        "title": "Creamy Tuscan Chicken",
+        "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+        "chef": "Chef Isabella Russo",
+        "rating": 4.9,
+        "orders": 342,
+        "description": "Juicy chicken breasts simmered in a rich garlic-parmesan cream sauce with sun-dried tomatoes and spinach."
+      },
+      {
+        "id": 2,
+        "title": "Spicy Thai Basil Stir-Fry",
+        "image": "https://plus.unsplash.com/premium_photo-1675252369719-dd52bc69c3df?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D",
+        "chef": "Chef Kanya Phan",
+        "rating": 4.7,
+        "orders": 289,
+        "description": "A fiery, flavorful stir-fry made with fresh Thai basil, chili garlic sauce, and tender ground chicken."
+      },
+      {
+        "id": 3,
+        "title": "Lemon Herb Salmon",
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D",
+        "chef": "Chef Elijah Moore",
+        "rating": 4.8,
+        "orders": 315,
+        "description": "Flaky salmon fillets baked to perfection with lemon zest, garlic, and fresh herbs."
+      },
+      {
+        "id": 4,
+        "title": "Butternut Squash Ravioli",
+        "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZvb2R8ZW58MHx8MHx8fDA%3D",
+        "chef": "Chef Marie",
+        "rating": 4.6,
+        "orders": 202,
+        "description": "Delicate ravioli filled with roasted butternut squash, tossed in a sage-brown butter sauce."
+      },
+      {
+        "id": 5,
+        "title": "Korean BBQ Beef Bowls",
+        "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGZvb2R8ZW58MHx8MHx8fDA%3D",
+        "chef": "Chef Jae-Ho Park",
+        "rating": 4.9,
+        "orders": 419,
+        "description": "Savory marinated beef over rice, topped with sesame seeds, scallions, and kimchi."
+      },
+      {
+        "id": 6,
+        "title": "Miso Ramen with Soft-Boiled Eggs",
+        "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZvb2R8ZW58MHx8MHx8fDA%3D",
+        "chef": "Chef Hana Saito",
+        "rating": 4.8,
+        "orders": 377,
+        "description": "Comforting, umami-packed miso ramen with tender noodles, marinated eggs, and a rich broth."
+      },
+      {
+        "id": 7,
+        "title": "Shakshuka",
+        "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZvb2R8ZW58MHx8MHx8fDA%3D",
+        "chef": "Chef Amir Ben-Yosef",
+        "rating": 4.7,
+        "orders": 258,
+        "description": "Eggs poached in a spiced tomato and pepper sauce, perfect for scooping with warm bread."
+      },
+      {
+        "id": 8,
+        "title": "Jollof Rice & Grilled Chicken",
+        "image": "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D",
+        "chef": "Chef Amaka Nwosu",
+        "rating": 5.0,
+        "orders": 499,
+        "description": "West African classic with rich tomato-spiced rice and smoky grilled chicken thighs."
+      },
+      {
+        "id": 9,
+        "title": "Butter Chicken & Naan",
+        "image": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGZvb2R8ZW58MHx8MHx8fDA%3D",
+        "chef": "Chef Arjun Mehra",
+        "rating": 4.9,
+        "orders": 395,
+        "description": "Creamy tomato curry with tender chicken pieces, served with fluffy naan bread."
+      },
+      {
+        "id": 10,
+        "title": "Zucchini Noodles with Pesto",
+        "image": "https://media.istockphoto.com/id/1414735039/photo/best-foods-for-brain-and-memory-on-pink-background-food-for-mind-and-charge-of-energy-healthy.webp?a=1&b=1&s=612x612&w=0&k=20&c=q2OgRA4Al6cqH-aPfiSUZoeK1pvoTHm4K9LdYwEAc-0=",
+        "chef": "Chef Mia Thompson",
+        "rating": 4.5,
+        "orders": 172,
+        "description": "A light and healthy dish with spiralized zucchini and a fresh basil pesto sauce."
+      },
+      {
+        "id": 11,
+        "title": "Moroccan Chickpea Stew",
+        "image": "https://media.istockphoto.com/id/592663950/photo/tomato-slice-full-frame-macro.webp?a=1&b=1&s=612x612&w=0&k=20&c=qv395M8myFsbEYSgcYAdLhgNBEg9b5kwmwTfqJayi40=",
+        "chef": "Chef Leila Haddad",
+        "rating": 4.8,
+        "orders": 221,
+        "description": "Warm, spiced chickpea and vegetable stew with hints of cinnamon, cumin, and paprika."
+      },
+      {
+        "id": 12,
+        "title": "Tex-Mex Loaded Nachos",
+        "image": "https://media.istockphoto.com/id/2167868882/photo/top-view-of-a-patient-having-lunch-in-the-hospital-bed.webp?a=1&b=1&s=612x612&w=0&k=20&c=_RpggMJduPTjGq4kjPWkBtCASgjqSNbF3lhrdfV1k2w=",
+        "chef": "Chef Diego Alvarez",
+        "rating": 4.6,
+        "orders": 348,
+        "description": "Crunchy tortilla chips piled high with melted cheese, beef, beans, guac, and jalapeños."
+      }
+      
+    ],
+    "blogs": [
+        {
+          "id": 1,
+          "title": "5 Secrets to Perfectly Grilled Chicken",
+          "image": "https://plus.unsplash.com/premium_photo-1682434403587-1313db01ed02?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmxvZ3N8ZW58MHx8MHx8fDA%3D",
+          "snippet": "Grilling chicken is easy—but grilling it *right* is an art. Here’s how to get crispy skin and juicy meat every time.",
+          "content": "Grilling chicken is a skill that combines preparation and technique. The key to juicy, flavorful chicken is marinating it for at least 4 hours with olive oil, lemon juice, garlic, and herbs..."
+        },
+        {
+          "id": 2,
+          "title": "The Ultimate Guide to Homemade Pasta",
+          "image": "https://images.unsplash.com/photo-1657639028182-24e11504c7c1?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxvZ3N8ZW58MHx8MHx8fDA%3D",
+          "snippet": "Learn how to make your own pasta from scratch and bring authentic Italian flavor to your kitchen.",
+          "content": "Homemade pasta is easier than you think! All you need is flour, eggs, a rolling pin, and some patience..."
+        },
+        {
+          "id": 3,
+          "title": "How to Bake the Perfect Pizza at Home",
+          "image": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmxvZ3N8ZW58MHx8MHx8fDA%3D",
+          "snippet": "Crispy crust, gooey cheese, and bold toppings—here’s how to make pizzeria-style pizza at home.",
+          "content": "Making the perfect pizza starts with the dough. Use high-protein flour, yeast, and a long fermentation process..."
+        },
+        {
+          "id": 4,
+          "title": "10 Quick Breakfasts for Busy Mornings",
+          "image": "https://images.unsplash.com/photo-1657638323016-b9b802f1756b?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmxvZ3N8ZW58MHx8MHx8fDA%3D",
+          "snippet": "Short on time? These 10 breakfasts are quick, healthy, and delicious—perfect for busy weekdays.",
+          "content": "From overnight oats to smoothie bowls, breakfast doesn’t have to be boring. Prep ahead for stress-free mornings..."
+        },
+        {
+          "id": 5,
+          "title": "Meal Prep Like a Pro: Tips & Tricks",
+          "image": "https://plus.unsplash.com/premium_photo-1661265944044-bc7248ae54f9?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmxvZ3N8ZW58MHx8MHx8fDA%3D",
+          "snippet": "Spend less time cooking and more time living with these simple meal prep tips.",
+          "content": "Meal prepping is all about planning. Cook in batches, use airtight containers, and freeze extras for emergencies..."
+        },
+        {
+          "id": 6,
+          "title": "Savory Soups to Keep You Warm",
+          "image": "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YmxvZ3N8ZW58MHx8MHx8fDA%3D",
+          "snippet": "Nothing beats a hot bowl of soup on a cold day. Here are our favorite cozy recipes.",
+          "content": "Try classics like chicken noodle, or spice it up with a Thai coconut curry soup. Don’t forget the crusty bread..."
+        },
+        {
+          "id": 7,
+          "title": "Top 5 Comfort Foods You Need to Try",
+          "image": "https://images.unsplash.com/photo-1657639039662-9edac2e6a40b?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmxvZ3N8ZW58MHx8MHx8fDA%3D",
+          "snippet": "Mac & cheese, meatloaf, mashed potatoes... what's your go-to comfort dish?",
+          "content": "Comfort foods bring joy to any table. Try homemade mac & cheese with breadcrumbs, or slow-cooked pot roast..."
+        },
+        {
+          "id": 8,
+          "title": "Healthy Lunch Ideas That Actually Taste Good",
+          "image": "https://images.unsplash.com/photo-1516414447565-b14be0adf13e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJsb2dzfGVufDB8fDB8fHww",
+          "snippet": "Swap boring sandwiches for flavor-packed lunch bowls and wraps.",
+          "content": "Try grilled chicken wraps, veggie-packed rice bowls, or quinoa salads. Flavor meets fuel in every bite..."
+        },
+        {
+          "id": 9,
+          "title": "Everything You Need to Know About Sourdough",
+          "image": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJsb2dzfGVufDB8fDB8fHww",
+          "snippet": "Sourdough baking is science and art. Here’s how to get started with your first starter.",
+          "content": "Mix equal parts flour and water, feed daily, and watch your starter rise. Patience and precision are key..."
+        },
+        {
+          "id": 10,
+          "title": "Dessert Goals: Bake These Crowd-Pleasers",
+          "image": "https://plus.unsplash.com/premium_photo-1720744786849-a7412d24ffbf?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGJsb2dzfGVufDB8fDB8fHww",
+          "snippet": "Brownies, cakes, cookies—what will you bake next?",
+          "content": "Start with chewy chocolate chip cookies or try a classic vanilla sponge cake. Everyone loves a sweet ending..."
+        }
+      ]
+      
+  }
+  
