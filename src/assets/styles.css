@@ -1,0 +1,8 @@
+*{
+    /* background-color:  rgb(253,210,205); */
+    font-family: "Noto Sans", sans-serif;
+}
+.Toastify__toast-container {
+    z-index: 9999;
+  }
+  

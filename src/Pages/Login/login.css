@@ -1,0 +1,130 @@
+.login-wrapper {
+    display: flex;
+    width: 70%;
+    margin: 50px auto;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    animation: fadeInUp 0.8s ease-in-out;
+  }
+  .login-wrapper.submitted {
+    animation: bounce 0.3s ease;
+}
+@keyframes bounce {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.03); }
+    100% { transform: scale(1); }
+}
+  .login-image-div {
+    max-width: 350px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    animation: slideInLeft 0.8s ease;
+  }
+  
+  .login-image-div img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  
+  .login-image-div:hover img {
+    transform: scale(1.05);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    animation: slideInRight 0.8s ease;
+  }
+  
+  form input[type="email"],
+  form input[type="password"],
+  form input[type="text"] {
+    margin-bottom: 20px;
+    padding: 0.5rem;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    font-size: 1rem;
+  }
+  
+  form input:focus {
+    border-color: #b65f54;
+    box-shadow: 0 0 0 3px rgba(182, 95, 84, 0.1);
+    outline: none;
+  }
+  
+  button[type="submit"] {
+    background-color: #b65f54;
+    color: #fff;
+    border-radius: 10px;
+    padding: 0.8rem;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #a44f45;
+    transform: translateY(-2px);
+  }
+  
+  button[type="submit"]:active {
+    transform: scale(0.98);
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .login-wrapper {
+      flex-direction: column;
+      width: 90%;
+      gap: 2rem;
+      margin: 35px auto;
+    }
+  
+    .login-image-div {
+      max-height: 220px;
+    }
+  }
+  

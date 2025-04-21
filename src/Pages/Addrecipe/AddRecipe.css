@@ -1,0 +1,132 @@
+.create-recipe-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+  
+.create-recipe-div h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+  
+.create-recipe-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.create-recipe-btn:hover {
+    background-color: #45a049;
+}
+  
+
+.new-recipe-info {
+    padding: 30px;
+}
+  
+.new-recipe-info form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+  
+.new-recipe-info label {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+  
+.new-recipe-info input[type="text"],
+.new-recipe-info textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.new-recipe-info input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 50%;
+    box-sizing: border-box;
+}
+  
+textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+input[type="file"] {
+    margin-top: 10px;
+}
+  
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+}
+  
+.image-preview-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+  
+.image-preview {
+    position: relative;
+    width: 150px;
+    text-align: center;
+}
+  
+.image-preview img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+.image-name {
+    font-size: 12px;
+    margin-top: 5px;
+}
+  
+
+.remove-image-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+    padding: 0;
+}
+  
+.remove-image-btn:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+.create-recipe-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}

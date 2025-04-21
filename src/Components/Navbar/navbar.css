@@ -1,0 +1,175 @@
+/* General Navbar Styling */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    position: relative;
+    z-index: 1000;
+}
+
+.nav-logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    user-select: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex; 
+    gap: 1.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    position: relative;
+    transition: color 0.3s;
+}
+
+.nav-links li a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background-color: #b65f54;
+    transition: 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #b65f54;
+}
+
+.nav-links li a:hover::after {
+    width: 100%;
+}
+
+.nav-button {
+    display: flex; 
+    gap: 0.5rem;
+}
+
+.nav-button button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.nav-button button a[href="/login"]{
+    color: black;
+    text-decoration: none;
+}
+.nav-button button a[href="/signup"]{
+    color: white;
+    text-decoration: none;
+}
+.nav-button button:nth-child(1) {
+    background-color: rgb(235, 235, 235);
+    color: black;
+}
+
+.nav-button button:nth-child(2) {
+    background-color: rgb(182, 95, 84);
+    color: white;
+}
+
+.nav-button button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.nav-menu-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.nav-toggle {
+    display: none; 
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.nav-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    transition: all 0.3s ease;
+}
+.nav-greeting{
+    display: flex;
+    gap: 10px;
+}
+.nav-greeting-btn{
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.nav-greeting-btn:hover{
+    background-color: rgb(182, 95, 84);
+    color: white;
+    transition: .3s;
+}
+@media screen and (max-width: 925px) {
+    .nav-links,
+    .nav-button {
+        display: none; 
+    }
+
+    .nav-toggle {
+        display: flex; 
+    }
+
+    .nav-menu-wrapper {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        flex-direction: column; 
+        align-items: center;
+        padding: 1rem 0;
+        transform: translateY(-200%);
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.3s ease-in-out;
+        z-index: 999;
+    }
+
+    .nav-menu-wrapper.active {
+        transform: translateY(0);
+        opacity: 1;
+        pointer-events: auto;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-menu-wrapper.active .nav-links,
+    .nav-menu-wrapper.active .nav-button {
+        display: flex; 
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        width: 100%;
+        margin-top: 1rem; 
+    }
+
+    .nav-menu-wrapper.active .nav-button button {
+        width: 90%;
+        max-width: 250px;
+    }
+}

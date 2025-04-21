@@ -1,0 +1,197 @@
+/* ========= FOOTER WRAPPER ========= */
+.footer-row-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 4rem 2rem;
+    background-color: #f2f2f2; 
+    color: #333;
+    box-sizing: border-box;
+}
+
+/* ========= SECTION 1: LOGO / ABOUT ========= */
+.footer-section-1 {
+    flex: 1 1 280px;
+    max-width: 400px;
+}
+
+.footer-section-1 p:first-child {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.footer-section-1 span {
+    color: #b65f54;
+}
+
+.footer-section-1 p:last-child {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* ========= SECTION 2: QUICK LINKS ========= */
+.footer-section-2 {
+    flex: 2 1 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.quick-links,
+.quick-links-2,
+.quick-links-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.quick-links p,
+.quick-links-2 p,
+.quick-links-3 p {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #222;
+}
+
+.quick-links a,
+.quick-links-2 a,
+.quick-links-3 a {
+    text-decoration: none;
+    color: #666;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+.quick-links a:hover,
+.quick-links-2 a:hover,
+.quick-links-3 a:hover {
+    color: #b65f54;
+}
+
+/* ========= SECTION 3: NEWSLETTER ========= */
+.footer-section-3 {
+    flex: 1 1 280px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    align-items: center;
+}
+
+.footer-section-3 p:first-child {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.footer-section-3 p:nth-child(2) {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.footer-section-3 form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.footer-section-3 input {
+    padding: 0.7rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* flex: 1 1 180px; */
+    font-size: 1rem;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+.footer-section-3 input:focus {
+    outline: none;
+    border-color: #b65f54;
+}
+
+.footer-section-3 button {
+    padding: 0.7rem 1.2rem;
+    background-color: #b65f54;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.footer-section-3 button:hover {
+    background-color: #a14b43;
+    transform: translateY(-2px);
+}
+
+/* ========= DIVIDER ========= */
+hr {
+    margin: 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+/* ========= FOOTER BOTTOM ========= */
+.footer-row-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e0e0e0;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.footer-section-5 {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+
+.footer-section-5 svg {
+    color: #666;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.footer-section-5 svg:hover {
+    color: #b65f54;
+}
+
+@media (max-width: 768px) {
+    .footer-row-1 {
+        flex-direction: column;
+    }
+
+    .footer-section-2 {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .footer-section-3 form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .footer-section-3 input,
+    .footer-section-3 button {
+        width: 100%;
+        flex: none;
+    }
+
+    .footer-row-2 {
+        flex-direction: column;
+        text-align: center;
+    }
+}

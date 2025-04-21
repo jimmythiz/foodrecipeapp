@@ -1,0 +1,121 @@
+/* Hero Section Styles */
+.hero-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 5%;
+    background-color: #fefefe;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+/* Text Section */
+.hero-div-text {
+    flex: 1;
+    max-width: 600px;
+}
+
+.hero-div-text h1 {
+    font-size: 3rem;
+    color: #b65f54;
+    margin-bottom: 0.5rem;
+}
+
+.hero-div-text h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.hero-div-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+/* CTA Button */
+.hero-btn {
+    display: inline-block;
+    background-color: #b65f54;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.hero-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero-btn:hover {
+    background-color: #a1493f;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Login Link */
+.login-redirect {
+    font-size: 0.95rem;
+    color: #444;
+}
+
+.login-redirect a {
+    color: #b65f54;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.login-redirect a:hover {
+    color: #a1493f;
+}
+
+/* Image Section */
+.hero-div-image {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-div-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease;
+}
+
+.hero-div-image img:hover {
+    transform: scale(1.03);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-div {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .hero-div-text h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-div-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero-div-text {
+        padding: 0 1rem;
+    }
+
+    .hero-div-image img {
+        max-width: 300px;
+    }
+}
