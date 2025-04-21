@@ -41,10 +41,10 @@ const Navbar = () => {
                     </div>
                     : <div className="nav-button"> 
                         <button>
-                            <NavLink to="/login" onClick={() => setMenuOpen(false)}>Login</NavLink>
+                            <NavLink to="/login" className="tologinbtn" onClick={() => setMenuOpen(false)}>Login</NavLink>
                         </button>
                         <button>
-                            <NavLink to="/signup" onClick={() => setMenuOpen(false)}>Sign Up</NavLink>
+                            <NavLink className="tosignupbtn" to="/signup" onClick={() => setMenuOpen(false)}>Sign Up</NavLink>
                         </button>
                      </div>
 }

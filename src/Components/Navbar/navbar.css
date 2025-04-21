@@ -124,6 +124,14 @@
     color: white;
     transition: .3s;
 }
+.tologinbtn{
+    text-decoration: none;
+    color: #333;
+}
+.tosignupbtn{
+    text-decoration: none;
+    color: #fff;
+}
 @media screen and (max-width: 925px) {
     .nav-links,
     .nav-button {

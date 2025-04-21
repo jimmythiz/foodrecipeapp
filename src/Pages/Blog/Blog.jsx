@@ -11,6 +11,7 @@ const Blog = () => {
     useEffect(()=>{
         const controller = new AbortController();
         fetch(import.meta.env.BASE_URL + "data.json", { signal: controller.signal })
+
         .then(res=>{
             if (!res.ok){
                 throw Error('Could not fetch data');
