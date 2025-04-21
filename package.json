@@ -3,12 +3,15 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage" : "https://jimmythiz.github.io/foodrecipeapp/",
+  
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
+  "start": "react-scripts start",
+  "build": "react-scripts build",
   "predeploy": "npm run build",
-  "deploy": "vite build && cp dist/index.html dist/404.html && gh-pages -d dist"
+  "deploy": "gh-pages -d build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
 }
 ,
   "dependencies": {
